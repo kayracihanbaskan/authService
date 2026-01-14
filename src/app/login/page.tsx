@@ -52,6 +52,9 @@ export default function LoginPage(){
                         <button onClick={onLogin} className="transition-all font-mono rounded-2xl px-4 py-2 bg-green-600 hover:bg-green-500  cursor-pointer text-sm">{isButtonDisabled ? "Login":"No Login"}</button>
                     </div>
                     <div className="flex justify-center">
+                        <Link href="/forgotpassword" className="underline text-white font-mono text-sm hover:text-red-300 hover:transition-all">forgot password</Link>
+                    </div>
+                    <div className="flex justify-center">
                         <Link
                         href="/signup"
                         className="text-xs font-bold bg-[linear-gradient(90deg,#ec4899,#ef4444,#facc15,#4ade80,#3b82f6,#a855f7)] bg-clip-text text-transparent bg-size[length:200%_200%] animate-pulse"
